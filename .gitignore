@@ -1,6 +1,6 @@
 # Ignore virtual environment
 mealplan-env/
-
+.env
 # Ignore system files
 *.pyc
 __pycache__/
