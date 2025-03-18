@@ -1,0 +1,7 @@
+# Ignore virtual environment
+mealplan-env/
+
+# Ignore system files
+*.pyc
+__pycache__/
+.DS_Store
