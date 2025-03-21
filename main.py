@@ -21,7 +21,7 @@ async def get_recipes(query: str = "chicken"):
     stored_recipes = await recipes_collection.find_one({"query": query})
     if stored_recipes:
         return stored_recipes["data"]  # Return stored recipes
-
+#
     # Fetch from Spoonacular API
     params = {"query": query, "apiKey": API_KEY}
     response = requests.get(API_URL, params=params)
